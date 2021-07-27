@@ -257,10 +257,11 @@ export default class TransactionScreen extends React.Component {
       var isStudentEligible = await this.checkStudentEligibilityForReturn();
       if (isStudentEligible) {
         this.initiateCycleReturn();
-       // Alert("Cycle returned to the library!");
-       // alert("Cycle returned to the library!");
-       // Alert.alert(Cycle returned to the library!);
-       // Alert.alert("Cycle returned to the library!");
+        
+       // Alert("Thank you for returning it to the School!");
+       // alert("Thank you for returning it to the School!");
+       // Alert.alert(Thank you for returning it to the School!);
+       // Alert.alert("Thank you for returning it to the School!");
 
       }
     }
